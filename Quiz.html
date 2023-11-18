@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <meta name="author" content="Qinzheng Sun, Cheng Tu, Qihao Wei & Anran Wu"/>
+        <meta name="description" content="SYM is a safe and annoymous plaform! Feel free to leave your message, comment or opinions. "/>
+        
+        <link rel="stylesheet" media="screen" href="css/Quiz.css">
+        
+        <script type="text/javascript" src="js/Quiz.js"></script>  
+    </head>
+    <body>
+        <h1>Learn About Depression!</h1>
+        <form id="quiz" name="quiz">
+        <br>
+        <p>Do you have any negative feelings recently?</p>
+        <input type="radio" id="mc" name="question1" value="Yes">Yes<br>
+        <input type="radio" id="mc" name="question1" value="No">No<br>
+        
+        <p>How dangerous do you think depression is?</p>
+        <input type="radio" id="mc" name="question2" value="A) It's nothing. People are too vulnerable and overact to this.">A) It's nothing. People are too vulnerable and overact to this.<br>
+        <input type="radio" id="mc" name="question2" value="B) It gets better as time goes by.">B) It gets better as time goes by.<br>
+        <input type="radio" id="mc" name="question2" value="C) It's a kind of illness. Treatment is needed.">C) It's a kind of illness. Treatment is needed.<br>
+        <input type="radio" id="mc" name="question2" value="D) Almost no one will survive this disease.">D) Almost no one will survive this disease.<br>
+    
+        <p>How soon should you seek help if you notice any signs of depression?</p>
+        <input type="radio" id="mc" name="question3" value="A) Right now">A) Right now<br>
+        <input type="radio" id="mc" name="question3" value="B) Three days">B) Three days<br>
+        <input type="radio" id="mc" name="question3" value="C) A week">C) A week<br>
+        <input type="radio" id="mc" name="question3" value="D) Two weeks">D) Two weeks<br>
+        
+        <p>When you realize that your friends around you are experiencing an extremely negative mental state. How would you help them?</p>
+        <input type="radio" id="mc" name="question4" value="A) Listening to them and giving some suggestions">A) Listening to them and giving some suggestions<br>
+        <input type="radio" id="mc" name="question4" value="B) Telling their parents or their guardians">B) Telling their parents or their guardians<br>
+        <input type="radio" id="mc" name="question4" value="C) Contacting a certified therapist or psychiatrist">C) Contacting a certified therapist or psychiatrist<br>
+        <input type="radio" id="mc" name="question4" value="D) Nothing">D) Nothing<br>
+        
+        <input id="button" type="button" value="Submit" onclick="check();">
+            
+        </form>
+        
+        <div id="after_submit">
+        <p id="message"></p>
+        <p id="number_correct">Good Job!</p>
+        </div>
+        
+    </body>
+
+
+</html>
